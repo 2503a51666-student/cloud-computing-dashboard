@@ -1,0 +1,21 @@
+{
+  "name": "smartattend-rfid-system",
+  "version": "1.0.0",
+  "description": "SmartAttend — RFID-Based Smart Attendance & Class Management System for AWS Cloud Computing Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/test_engine.js"
+  },
+  "keywords": [
+    "rfid",
+    "attendance",
+    "aws-cloud",
+    "smart-campus",
+    "lambda",
+    "dynamodb",
+    "api-gateway"
+  ],
+  "author": "SmartAttend Academic Team",
+  "license": "MIT"
+}

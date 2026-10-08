@@ -1,0 +1,1136 @@
+{
+  "rules": {
+    "minimum_percentage": 75,
+    "target_threshold_high": 80,
+    "grace_period_minutes": 5,
+    "late_threshold_minutes": 15,
+    "very_late_threshold_minutes": 30,
+    "cutoff_minutes": 45,
+    "allow_partial_credit": true,
+    "consecutive_period_policy": "AUTO_CREDIT_QUALIFIED",
+    "duplicate_scan_window_seconds": 300
+  },
+  "students": [
+    {
+      "student_id": "23CS01042",
+      "name": "Subrahmanyam",
+      "email": "subrahmanyam@college.edu",
+      "department": "Computer Science & Engineering",
+      "year": "I Year",
+      "semester": "Semester 2",
+      "section": "A",
+      "rfid_card_id": "RFID1042",
+      "status": "Active",
+      "phone": "+91 98765 43210",
+      "parent_phone": "+91 94401 23456",
+      "parent_name": "S. V. Ramana",
+      "avatar": "S",
+      "notification_prefs": {
+        "reminder_30m": true,
+        "reminder_15m": true,
+        "reminder_5m": true,
+        "email_alerts": true,
+        "sound_enabled": true
+      }
+    },
+    {
+      "student_id": "23CS01045",
+      "name": "Yashwanth",
+      "email": "yashwanth@college.edu",
+      "department": "Computer Science & Engineering",
+      "year": "I Year",
+      "semester": "Semester 2",
+      "section": "A",
+      "rfid_card_id": "RFID1045",
+      "status": "Active",
+      "phone": "+91 98765 43211",
+      "parent_phone": "+91 94402 34567",
+      "parent_name": "Y. Narasimha Rao",
+      "avatar": "Y",
+      "notification_prefs": {
+        "reminder_30m": false,
+        "reminder_15m": true,
+        "reminder_5m": true,
+        "email_alerts": false,
+        "sound_enabled": true
+      }
+    },
+    {
+      "student_id": "23CS01048",
+      "name": "Dheeraj",
+      "email": "dheeraj@college.edu",
+      "department": "Computer Science & Engineering",
+      "year": "I Year",
+      "semester": "Semester 2",
+      "section": "A",
+      "rfid_card_id": "RFID1048",
+      "status": "Active",
+      "phone": "+91 98765 43212",
+      "parent_phone": "+91 94403 45678",
+      "parent_name": "D. Madhava Reddy",
+      "avatar": "D",
+      "notification_prefs": {
+        "reminder_30m": true,
+        "reminder_15m": true,
+        "reminder_5m": true,
+        "email_alerts": true,
+        "sound_enabled": true
+      }
+    },
+    {
+      "student_id": "23CS01052",
+      "name": "Sneha Patel",
+      "email": "sneha.p@college.edu",
+      "department": "Computer Science & Engineering",
+      "year": "I Year",
+      "semester": "Semester 2",
+      "section": "B",
+      "rfid_card_id": "RFID1052",
+      "status": "Active",
+      "phone": "+91 98765 43213",
+      "parent_phone": "+91 94404 56789",
+      "parent_name": "R. Patel",
+      "avatar": "P",
+      "notification_prefs": {
+        "reminder_30m": true,
+        "reminder_15m": true,
+        "reminder_5m": false,
+        "email_alerts": true,
+        "sound_enabled": true
+      }
+    },
+    {
+      "student_id": "23CS01058",
+      "name": "Rahul Verma",
+      "email": "rahul.v@college.edu",
+      "department": "Computer Science & Engineering",
+      "year": "I Year",
+      "semester": "Semester 2",
+      "section": "B",
+      "rfid_card_id": "RFID1058",
+      "status": "Active",
+      "phone": "+91 98765 43214",
+      "parent_phone": "+91 94405 67890",
+      "parent_name": "A. Verma",
+      "avatar": "R",
+      "notification_prefs": {
+        "reminder_30m": false,
+        "reminder_15m": true,
+        "reminder_5m": true,
+        "email_alerts": true,
+        "sound_enabled": true
+      }
+    }
+  ],
+  "faculty": [
+    {
+      "faculty_id": "FAC101",
+      "name": "Dr. Smruti Ranjan Sahoo",
+      "role": "Associate Professor",
+      "department": "Computer Science & Engineering",
+      "email": "smruti.sahoo@college.edu",
+      "is_admin": false
+    },
+    {
+      "faculty_id": "FAC102",
+      "name": "Dr. Mathivan D",
+      "role": "Associate Professor",
+      "department": "Computer Science & Engineering",
+      "email": "mathivan.d@college.edu",
+      "is_admin": false
+    },
+    {
+      "faculty_id": "FAC103",
+      "name": "Dr. Adyasha Sahu",
+      "role": "Assistant Professor",
+      "department": "Computer Science & Engineering",
+      "email": "adyasha.sahu@college.edu",
+      "is_admin": false
+    },
+    {
+      "faculty_id": "FAC104",
+      "name": "Mr. Khaja Mannanuddin",
+      "role": "Assistant Professor",
+      "department": "Computer Science & Engineering",
+      "email": "khaja.m@college.edu",
+      "is_admin": false
+    },
+    {
+      "faculty_id": "FAC105",
+      "name": "Dr. Nakka Shekhar",
+      "role": "Professor & Academic Dean",
+      "department": "Computer Science & Engineering",
+      "email": "nakka.shekhar@college.edu",
+      "is_admin": true
+    },
+    {
+      "faculty_id": "FAC106",
+      "name": "Dr. Soutrick Das",
+      "role": "Assistant Professor",
+      "department": "Computer Science & Engineering",
+      "email": "soutrick.das@college.edu",
+      "is_admin": false
+    },
+    {
+      "faculty_id": "FAC107",
+      "name": "Mr. Vishal Shukla",
+      "role": "Assistant Professor (Lab In-Charge)",
+      "department": "Computer Science & Engineering",
+      "email": "vishal.shukla@college.edu",
+      "is_admin": false
+    },
+    {
+      "faculty_id": "FAC108",
+      "name": "Mr. Deepak Soni",
+      "role": "Assistant Professor (Lab In-Charge)",
+      "department": "Computer Science & Engineering",
+      "email": "deepak.soni@college.edu",
+      "is_admin": false
+    }
+  ],
+  "subjects": [
+    {
+      "subject_id": "CS101",
+      "subject_name": "OS&CN",
+      "subject_code": "CS-101",
+      "full_title": "Operating Systems & Computer Networks",
+      "faculty": "Dr. Smruti Ranjan Sahoo",
+      "faculty_id": "FAC101",
+      "credits": 4,
+      "attendance_requirement": 75,
+      "color": "#2563eb",
+      "bg_light": "#eff6ff"
+    },
+    {
+      "subject_id": "CS102",
+      "subject_name": "AI Assisted Coding",
+      "subject_code": "CS-102",
+      "full_title": "AI Assisted Coding & Generative Tools",
+      "faculty": "Dr. Mathivan D",
+      "faculty_id": "FAC102",
+      "credits": 4,
+      "attendance_requirement": 75,
+      "color": "#059669",
+      "bg_light": "#ecfdf5"
+    },
+    {
+      "subject_id": "CS103",
+      "subject_name": "Cloud Computing",
+      "subject_code": "CS-103",
+      "full_title": "Cloud Computing & AWS Architecture",
+      "faculty": "Dr. Adyasha Sahu",
+      "faculty_id": "FAC103",
+      "credits": 4,
+      "attendance_requirement": 80,
+      "color": "#4f46e5",
+      "bg_light": "#eef2ff"
+    },
+    {
+      "subject_id": "CS104",
+      "subject_name": "WT&MP",
+      "subject_code": "CS-104",
+      "full_title": "Web Technologies & Modern Programming",
+      "faculty": "Mr. Khaja Mannanuddin",
+      "faculty_id": "FAC104",
+      "lab_faculty": "Mr. Vishal Shukla / Mr. Deepak Soni",
+      "credits": 4,
+      "attendance_requirement": 75,
+      "color": "#0891b2",
+      "bg_light": "#ecfeff"
+    },
+    {
+      "subject_id": "CS105",
+      "subject_name": "IMS",
+      "subject_code": "CS-105",
+      "full_title": "Information Management Systems",
+      "faculty": "Dr. Nakka Shekhar",
+      "faculty_id": "FAC105",
+      "credits": 3,
+      "attendance_requirement": 75,
+      "color": "#7c3aed",
+      "bg_light": "#f5f3ff"
+    },
+    {
+      "subject_id": "CS106",
+      "subject_name": "DAV",
+      "subject_code": "CS-106",
+      "full_title": "Data Analytics & Visualization",
+      "faculty": "Dr. Soutrick Das",
+      "faculty_id": "FAC106",
+      "credits": 3,
+      "attendance_requirement": 75,
+      "color": "#d97706",
+      "bg_light": "#fffbeb"
+    }
+  ],
+  "readers": [
+    {
+      "reader_id": "READER-LAB-02",
+      "location": "Ramanujan Block, 2nd Floor",
+      "room": "CSE Lab 2",
+      "status": "Online",
+      "last_seen": "2026-10-08T06:30:00Z",
+      "ip_address": "192.168.10.42",
+      "hardware_model": "ESP32-RC522-AWS-IOT",
+      "active_subject_id": "CS102"
+    },
+    {
+      "reader_id": "READER-LAB-01",
+      "location": "Ramanujan Block, Ground Floor",
+      "room": "CSE Lab 1",
+      "status": "Online",
+      "last_seen": "2026-10-08T06:29:45Z",
+      "ip_address": "192.168.10.31",
+      "hardware_model": "ESP32-RC522-AWS-IOT",
+      "active_subject_id": "CS104"
+    },
+    {
+      "reader_id": "READER-LH-101",
+      "location": "Ramanujan Block, 1st Floor",
+      "room": "Lecture Hall 101",
+      "status": "Online",
+      "last_seen": "2026-10-08T06:28:30Z",
+      "ip_address": "192.168.10.15",
+      "hardware_model": "ESP32-RC522-AWS-IOT",
+      "active_subject_id": "CS101"
+    },
+    {
+      "reader_id": "READER-LH-204",
+      "location": "Aryabhata Block, 2nd Floor",
+      "room": "Room B204",
+      "status": "Online",
+      "last_seen": "2026-10-08T06:25:00Z",
+      "ip_address": "192.168.12.8",
+      "hardware_model": "ESP32-RC522-AWS-IOT",
+      "active_subject_id": "CS103"
+    }
+  ],
+  "timetable": [
+    {
+      "timetable_id": "TT-MON-01",
+      "day": "Monday",
+      "day_index": 1,
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "subject_id": "CS101",
+      "subject_name": "OS&CN",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Smruti Ranjan Sahoo",
+      "room": "Lecture Hall 101",
+      "building": "Ramanujan Block, 1st Floor",
+      "reader_id": "READER-LH-101",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-MON-02",
+      "day": "Monday",
+      "day_index": 1,
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "subject_id": "CS104",
+      "subject_name": "WT&MP",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Mr. Khaja Mannanuddin",
+      "room": "Lecture Hall 101",
+      "building": "Ramanujan Block, 1st Floor",
+      "reader_id": "READER-LH-101",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-MON-03",
+      "day": "Monday",
+      "day_index": 1,
+      "start_time": "13:30",
+      "end_time": "15:30",
+      "subject_id": "CS105",
+      "subject_name": "IMS",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Dr. Nakka Shekhar",
+      "room": "CSE Lab 1",
+      "building": "Ramanujan Block, Ground Floor",
+      "reader_id": "READER-LAB-01",
+      "periods": 2,
+      "consecutive": true,
+      "period_breakdown": [
+        {
+          "period_number": 1,
+          "start_time": "13:30",
+          "end_time": "14:30"
+        },
+        {
+          "period_number": 2,
+          "start_time": "14:30",
+          "end_time": "15:30"
+        }
+      ]
+    },
+    {
+      "timetable_id": "TT-TUE-01",
+      "day": "Tuesday",
+      "day_index": 2,
+      "start_time": "09:30",
+      "end_time": "11:30",
+      "subject_id": "CS102",
+      "subject_name": "AI Assisted Coding",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Dr. Mathivan D",
+      "room": "CSE Lab 2",
+      "building": "Ramanujan Block, 2nd Floor",
+      "reader_id": "READER-LAB-02",
+      "periods": 2,
+      "consecutive": true,
+      "period_breakdown": [
+        {
+          "period_number": 1,
+          "start_time": "09:30",
+          "end_time": "10:30"
+        },
+        {
+          "period_number": 2,
+          "start_time": "10:30",
+          "end_time": "11:30"
+        }
+      ]
+    },
+    {
+      "timetable_id": "TT-TUE-02",
+      "day": "Tuesday",
+      "day_index": 2,
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "subject_id": "CS104",
+      "subject_name": "WT&MP",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Mr. Khaja Mannanuddin",
+      "room": "Lecture Hall 101",
+      "building": "Ramanujan Block, 1st Floor",
+      "reader_id": "READER-LH-101",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-TUE-03",
+      "day": "Tuesday",
+      "day_index": 2,
+      "start_time": "13:30",
+      "end_time": "14:30",
+      "subject_id": "CS103",
+      "subject_name": "Cloud Computing",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Adyasha Sahu",
+      "room": "Room B204",
+      "building": "Aryabhata Block, 2nd Floor",
+      "reader_id": "READER-LH-204",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-TUE-04",
+      "day": "Tuesday",
+      "day_index": 2,
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "subject_id": "CS101",
+      "subject_name": "OS&CN",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Smruti Ranjan Sahoo",
+      "room": "Room B204",
+      "building": "Aryabhata Block, 2nd Floor",
+      "reader_id": "READER-LH-204",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-TUE-05",
+      "day": "Tuesday",
+      "day_index": 2,
+      "start_time": "15:30",
+      "end_time": "17:30",
+      "subject_id": "CS106",
+      "subject_name": "DAV",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Dr. Soutrick Das",
+      "room": "CSE Lab 2",
+      "building": "Ramanujan Block, 2nd Floor",
+      "reader_id": "READER-LAB-02",
+      "periods": 2,
+      "consecutive": true,
+      "period_breakdown": [
+        {
+          "period_number": 1,
+          "start_time": "15:30",
+          "end_time": "16:30"
+        },
+        {
+          "period_number": 2,
+          "start_time": "16:30",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "timetable_id": "TT-WED-01",
+      "day": "Wednesday",
+      "day_index": 3,
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "subject_id": "CS105",
+      "subject_name": "IMS",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Nakka Shekhar",
+      "room": "Lecture Hall 101",
+      "building": "Ramanujan Block, 1st Floor",
+      "reader_id": "READER-LH-101",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-WED-02",
+      "day": "Wednesday",
+      "day_index": 3,
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "subject_id": "CS106",
+      "subject_name": "DAV",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Soutrick Das",
+      "room": "Lecture Hall 101",
+      "building": "Ramanujan Block, 1st Floor",
+      "reader_id": "READER-LH-101",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-WED-03",
+      "day": "Wednesday",
+      "day_index": 3,
+      "start_time": "13:30",
+      "end_time": "15:30",
+      "subject_id": "CS104",
+      "subject_name": "WT&MP",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Mr. Vishal Shukla",
+      "room": "CSE Lab 1",
+      "building": "Ramanujan Block, Ground Floor",
+      "reader_id": "READER-LAB-01",
+      "periods": 2,
+      "consecutive": true,
+      "period_breakdown": [
+        {
+          "period_number": 1,
+          "start_time": "13:30",
+          "end_time": "14:30"
+        },
+        {
+          "period_number": 2,
+          "start_time": "14:30",
+          "end_time": "15:30"
+        }
+      ]
+    },
+    {
+      "timetable_id": "TT-WED-04",
+      "day": "Wednesday",
+      "day_index": 3,
+      "start_time": "15:30",
+      "end_time": "16:30",
+      "subject_id": "CS101",
+      "subject_name": "OS&CN",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Smruti Ranjan Sahoo",
+      "room": "Room B204",
+      "building": "Aryabhata Block, 2nd Floor",
+      "reader_id": "READER-LH-204",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-THU-01",
+      "day": "Thursday",
+      "day_index": 4,
+      "start_time": "09:30",
+      "end_time": "11:30",
+      "subject_id": "CS103",
+      "subject_name": "Cloud Computing",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Dr. Adyasha Sahu",
+      "room": "CSE Lab 2",
+      "building": "Ramanujan Block, 2nd Floor",
+      "reader_id": "READER-LAB-02",
+      "periods": 2,
+      "consecutive": true,
+      "period_breakdown": [
+        {
+          "period_number": 1,
+          "start_time": "09:30",
+          "end_time": "10:30"
+        },
+        {
+          "period_number": 2,
+          "start_time": "10:30",
+          "end_time": "11:30"
+        }
+      ]
+    },
+    {
+      "timetable_id": "TT-THU-02",
+      "day": "Thursday",
+      "day_index": 4,
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "subject_id": "CS102",
+      "subject_name": "AI Assisted Coding",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Dr. Mathivan D",
+      "room": "CSE Lab 2",
+      "building": "Ramanujan Block, 2nd Floor",
+      "reader_id": "READER-LAB-02",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-THU-03",
+      "day": "Thursday",
+      "day_index": 4,
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "subject_id": "CS102",
+      "subject_name": "AI Assisted Coding",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Dr. Mathivan D",
+      "room": "CSE Lab 2",
+      "building": "Ramanujan Block, 2nd Floor",
+      "reader_id": "READER-LAB-02",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-THU-04",
+      "day": "Thursday",
+      "day_index": 4,
+      "start_time": "15:30",
+      "end_time": "16:30",
+      "subject_id": "CS106",
+      "subject_name": "DAV",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Soutrick Das",
+      "room": "Room B204",
+      "building": "Aryabhata Block, 2nd Floor",
+      "reader_id": "READER-LH-204",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-THU-05",
+      "day": "Thursday",
+      "day_index": 4,
+      "start_time": "16:30",
+      "end_time": "17:30",
+      "subject_id": "CS105",
+      "subject_name": "IMS",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Nakka Shekhar",
+      "room": "Room B204",
+      "building": "Aryabhata Block, 2nd Floor",
+      "reader_id": "READER-LH-204",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-FRI-01",
+      "day": "Friday",
+      "day_index": 5,
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "subject_id": "CS105",
+      "subject_name": "IMS",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Nakka Shekhar",
+      "room": "Lecture Hall 101",
+      "building": "Ramanujan Block, 1st Floor",
+      "reader_id": "READER-LH-101",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-FRI-02",
+      "day": "Friday",
+      "day_index": 5,
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "subject_id": "CS104",
+      "subject_name": "WT&MP",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Mr. Deepak Soni",
+      "room": "CSE Lab 1",
+      "building": "Ramanujan Block, Ground Floor",
+      "reader_id": "READER-LAB-01",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-FRI-03",
+      "day": "Friday",
+      "day_index": 5,
+      "start_time": "13:30",
+      "end_time": "14:30",
+      "subject_id": "CS104",
+      "subject_name": "WT&MP",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Mr. Deepak Soni",
+      "room": "CSE Lab 1",
+      "building": "Ramanujan Block, Ground Floor",
+      "reader_id": "READER-LAB-01",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-FRI-04",
+      "day": "Friday",
+      "day_index": 5,
+      "start_time": "15:30",
+      "end_time": "16:30",
+      "subject_id": "CS101",
+      "subject_name": "OS&CN",
+      "type": "LECTURE",
+      "type_label": "L - Lecture",
+      "faculty": "Dr. Smruti Ranjan Sahoo",
+      "room": "Room B204",
+      "building": "Aryabhata Block, 2nd Floor",
+      "reader_id": "READER-LH-204",
+      "periods": 1,
+      "consecutive": false
+    },
+    {
+      "timetable_id": "TT-FRI-05",
+      "day": "Friday",
+      "day_index": 5,
+      "start_time": "16:30",
+      "end_time": "17:30",
+      "subject_id": "CS101",
+      "subject_name": "OS&CN",
+      "type": "PRACTICAL",
+      "type_label": "P - Practical",
+      "faculty": "Dr. Smruti Ranjan Sahoo",
+      "room": "CSE Lab 2",
+      "building": "Ramanujan Block, 2nd Floor",
+      "reader_id": "READER-LAB-02",
+      "periods": 1,
+      "consecutive": false
+    }
+  ],
+  "attendance_records": [
+    {
+      "attendance_id": "ATT-20261008-001",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "subject_id": "CS103",
+      "subject_name": "Cloud Computing",
+      "date": "2026-10-08",
+      "scheduled_start": "09:30",
+      "scheduled_end": "11:30",
+      "rfid_punch_time": "09:28:40",
+      "status": "ON TIME",
+      "classes_credited": 2,
+      "reader_id": "READER-LAB-02",
+      "room": "CSE Lab 2",
+      "remarks": "Cloud Computing Lab: Both consecutive periods credited"
+    },
+    {
+      "attendance_id": "ATT-20261008-002",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "subject_id": "CS102",
+      "subject_name": "AI Assisted Coding",
+      "date": "2026-10-08",
+      "scheduled_start": "11:30",
+      "scheduled_end": "12:30",
+      "rfid_punch_time": "11:32:15",
+      "status": "ON TIME",
+      "classes_credited": 1,
+      "reader_id": "READER-LAB-02",
+      "room": "CSE Lab 2",
+      "remarks": "Punched at 11:32 AM (within grace period)"
+    },
+    {
+      "attendance_id": "ATT-20261007-001",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "subject_id": "CS105",
+      "subject_name": "IMS",
+      "date": "2026-10-07",
+      "scheduled_start": "09:30",
+      "scheduled_end": "10:30",
+      "rfid_punch_time": "09:27:10",
+      "status": "ON TIME",
+      "classes_credited": 1,
+      "reader_id": "READER-LH-101",
+      "room": "Lecture Hall 101",
+      "remarks": "Normal swipe on time"
+    },
+    {
+      "attendance_id": "ATT-20261007-002",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "subject_id": "CS106",
+      "subject_name": "DAV",
+      "date": "2026-10-07",
+      "scheduled_start": "10:30",
+      "scheduled_end": "11:30",
+      "rfid_punch_time": "10:38:20",
+      "status": "LATE",
+      "classes_credited": 1,
+      "reader_id": "READER-LH-101",
+      "room": "Lecture Hall 101",
+      "remarks": "Arrived 8 mins late (Late window)"
+    },
+    {
+      "attendance_id": "ATT-20261007-003",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "subject_id": "CS104",
+      "subject_name": "WT&MP",
+      "date": "2026-10-07",
+      "scheduled_start": "13:30",
+      "scheduled_end": "15:30",
+      "rfid_punch_time": "13:28:00",
+      "status": "ON TIME",
+      "classes_credited": 2,
+      "reader_id": "READER-LAB-01",
+      "room": "CSE Lab 1",
+      "remarks": "WT&MP Practical: 2 consecutive hours credited"
+    },
+    {
+      "attendance_id": "ATT-20261006-001",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "subject_id": "CS102",
+      "subject_name": "AI Assisted Coding",
+      "date": "2026-10-06",
+      "scheduled_start": "09:30",
+      "scheduled_end": "11:30",
+      "rfid_punch_time": "09:29:15",
+      "status": "ON TIME",
+      "classes_credited": 2,
+      "reader_id": "READER-LAB-02",
+      "room": "CSE Lab 2",
+      "remarks": "AI Coding Lab: Both hours credited"
+    },
+    {
+      "attendance_id": "ATT-20261006-002",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "subject_id": "CS101",
+      "subject_name": "OS&CN",
+      "date": "2026-10-06",
+      "scheduled_start": "14:30",
+      "scheduled_end": "15:30",
+      "rfid_punch_time": "14:52:10",
+      "status": "VERY LATE",
+      "classes_credited": 1,
+      "reader_id": "READER-LH-204",
+      "room": "Room B204",
+      "remarks": "Punched 22 mins late; very late warning"
+    },
+    {
+      "attendance_id": "ATT-20261008-003",
+      "student_id": "23CS01048",
+      "student_name": "Dheeraj",
+      "subject_id": "CS103",
+      "subject_name": "Cloud Computing",
+      "date": "2026-10-08",
+      "scheduled_start": "09:30",
+      "scheduled_end": "11:30",
+      "rfid_punch_time": null,
+      "status": "ABSENT",
+      "classes_credited": 0,
+      "reader_id": null,
+      "room": "CSE Lab 2",
+      "remarks": "Unexcused absence"
+    }
+  ],
+  "student_aggregates": {
+    "23CS01042": {
+      "total_conducted": 52,
+      "attended": 42,
+      "missed": 10,
+      "od_credited": 3,
+      "subject_stats": {
+        "CS101": {
+          "conducted": 12,
+          "attended": 9,
+          "missed": 3
+        },
+        "CS102": {
+          "conducted": 10,
+          "attended": 8,
+          "missed": 2
+        },
+        "CS103": {
+          "conducted": 9,
+          "attended": 8,
+          "missed": 1
+        },
+        "CS104": {
+          "conducted": 9,
+          "attended": 7,
+          "missed": 2
+        },
+        "CS105": {
+          "conducted": 6,
+          "attended": 5,
+          "missed": 1
+        },
+        "CS106": {
+          "conducted": 6,
+          "attended": 4,
+          "missed": 2
+        }
+      }
+    },
+    "23CS01045": {
+      "total_conducted": 52,
+      "attended": 45,
+      "missed": 7,
+      "od_credited": 0,
+      "subject_stats": {
+        "CS101": {
+          "conducted": 12,
+          "attended": 11,
+          "missed": 1
+        },
+        "CS102": {
+          "conducted": 10,
+          "attended": 9,
+          "missed": 1
+        },
+        "CS103": {
+          "conducted": 9,
+          "attended": 8,
+          "missed": 1
+        },
+        "CS104": {
+          "conducted": 9,
+          "attended": 8,
+          "missed": 1
+        },
+        "CS105": {
+          "conducted": 6,
+          "attended": 5,
+          "missed": 1
+        },
+        "CS106": {
+          "conducted": 6,
+          "attended": 4,
+          "missed": 2
+        }
+      }
+    },
+    "23CS01048": {
+      "total_conducted": 52,
+      "attended": 36,
+      "missed": 16,
+      "od_credited": 0,
+      "subject_stats": {
+        "CS101": {
+          "conducted": 12,
+          "attended": 8,
+          "missed": 4
+        },
+        "CS102": {
+          "conducted": 10,
+          "attended": 7,
+          "missed": 3
+        },
+        "CS103": {
+          "conducted": 9,
+          "attended": 6,
+          "missed": 3
+        },
+        "CS104": {
+          "conducted": 9,
+          "attended": 6,
+          "missed": 3
+        },
+        "CS105": {
+          "conducted": 6,
+          "attended": 4,
+          "missed": 2
+        },
+        "CS106": {
+          "conducted": 6,
+          "attended": 5,
+          "missed": 1
+        }
+      }
+    }
+  },
+  "leave_requests": [
+    {
+      "leave_id": "LV-1791423635212",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "type": "ON_DUTY",
+      "type_label": "On-Duty (OD)",
+      "date_from": "2026-10-15",
+      "date_to": "2026-10-16",
+      "subjects_affected": [
+        "SUB-CS-CC"
+      ],
+      "classes_credited": 1,
+      "reason": "AWS Cloud Practitioner Certification Workshop",
+      "document_ref": "AWS_Workshop_Pass.pdf",
+      "status": "APPROVED",
+      "applied_on": "2026-10-08T01:40:35.212Z",
+      "reviewed_by": "Dr. Nakka Shekhar (Academic Dean)",
+      "reviewed_on": "2026-10-08T01:40:35.278Z",
+      "admin_remarks": "Approved by HOD"
+    },
+    {
+      "leave_id": "LV-20261005-001",
+      "student_id": "23CS01042",
+      "student_name": "Subrahmanyam",
+      "type": "ON_DUTY",
+      "type_label": "On-Duty (Smart India Hackathon 2026)",
+      "date_from": "2026-10-02",
+      "date_to": "2026-10-03",
+      "subjects_affected": [
+        "CS101",
+        "CS102"
+      ],
+      "classes_credited": 2,
+      "reason": "Participated in Smart India Hackathon Regional Finals at IIT Hyderabad.",
+      "document_ref": "SIH2026_Certificate_Subrahmanyam.pdf",
+      "status": "APPROVED",
+      "applied_on": "2026-10-04T10:00:00Z",
+      "reviewed_by": "Dr. Nakka Shekhar (Academic Dean)",
+      "reviewed_on": "2026-10-04T16:30:00Z",
+      "admin_remarks": "Verified participation certificate. 2 attendance credits granted."
+    },
+    {
+      "leave_id": "LV-20261007-002",
+      "student_id": "23CS01048",
+      "student_name": "Dheeraj",
+      "type": "MEDICAL",
+      "type_label": "Medical Leave (Viral Fever)",
+      "date_from": "2026-10-07",
+      "date_to": "2026-10-08",
+      "subjects_affected": [
+        "CS103",
+        "CS106"
+      ],
+      "classes_credited": 0,
+      "reason": "Hospitalized due to acute viral infection.",
+      "document_ref": "Medical_Certificate_Dheeraj.pdf",
+      "status": "PENDING",
+      "applied_on": "2026-10-07T08:30:00Z",
+      "reviewed_by": null,
+      "reviewed_on": null,
+      "admin_remarks": null
+    }
+  ],
+  "parent_alerts": [
+    {
+      "alert_id": "PA-1791423644653",
+      "student_id": "23CS01048",
+      "student_name": "Dheeraj",
+      "parent_phone": "+91 94403 45678",
+      "parent_name": "D. Madhava Reddy",
+      "type": "SNS_SMS_AND_EMAIL",
+      "severity": "CRITICAL",
+      "trigger_reason": "CRITICAL_SHORTAGE",
+      "message": "URGENT: SmartAttend Campus Alert. Your ward Dheeraj (Roll: 23CS01048) has overall attendance of 69.2% in Semester 2 (below mandatory 75% requirement). Hall ticket clearance is at risk. Please contact the Head of Department.",
+      "sent_at": "2026-10-08T01:40:44.653Z",
+      "delivery_status": "DELIVERED_VIA_AWS_SNS",
+      "sns_message_id": "sns-msg-gvqxit0d-1791423644653"
+    },
+    {
+      "alert_id": "PA-20261007-001",
+      "student_id": "23CS01048",
+      "student_name": "Dheeraj",
+      "parent_phone": "+91 94403 45678",
+      "parent_name": "D. Madhava Reddy",
+      "type": "SNS_SMS_AND_EMAIL",
+      "severity": "CRITICAL",
+      "trigger_reason": "Attendance dropped to 69.2% (below 75% minimum)",
+      "message": "URGENT: Alert from SmartAttend Campus. Your ward Dheeraj (Roll: 23CS01048) has attendance 69.2% in Cloud Computing & OS&CN (below mandatory 75%). Please contact department coordinator immediately.",
+      "sent_at": "2026-10-07T18:00:00Z",
+      "delivery_status": "DELIVERED_VIA_AWS_SNS",
+      "sns_message_id": "sns-msg-9f82c418-20261007"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-1791423644654",
+      "student_id": "23CS01048",
+      "type": "PARENT_ALERT_DISPATCHED",
+      "title": "Parent Alert Dispatched (AWS SNS)",
+      "message": "An automated SMS notification was dispatched to +91 94403 45678 regarding attendance shortage.",
+      "timestamp": "2026-10-08T01:40:44.654Z",
+      "read": false,
+      "severity": "critical"
+    },
+    {
+      "id": "NOTIF-1791423635278",
+      "student_id": "23CS01042",
+      "type": "LEAVE_APPROVED",
+      "title": "On-Duty (OD) Approved ✓",
+      "message": "Your On-Duty (OD) was approved by Dr. Nakka Shekhar (Academic Dean). +1 attendance credit(s) applied.",
+      "timestamp": "2026-10-08T01:40:35.278Z",
+      "read": false,
+      "severity": "success"
+    },
+    {
+      "id": "NOTIF-001",
+      "student_id": "23CS01042",
+      "type": "ATTENDANCE_SUCCESS",
+      "title": "Attendance Recorded",
+      "message": "Cloud Computing practical marked successfully (ON TIME). 2 hours credited.",
+      "timestamp": "2026-10-08T09:28:40Z",
+      "read": false,
+      "severity": "success"
+    },
+    {
+      "id": "NOTIF-002",
+      "student_id": "23CS01042",
+      "type": "CLASS_REMINDER",
+      "title": "Upcoming Class Reminder",
+      "message": "Your next class is AI Assisted Coding Practical at 11:30 AM in CSE Lab 2.",
+      "timestamp": "2026-10-08T11:15:00Z",
+      "read": false,
+      "severity": "info"
+    },
+    {
+      "id": "NOTIF-003",
+      "student_id": "23CS01042",
+      "type": "LEAVE_APPROVED",
+      "title": "On-Duty Leave Approved",
+      "message": "Your On-Duty leave for Smart India Hackathon was approved by Dean Dr. Nakka Shekhar.",
+      "timestamp": "2026-10-04T16:30:00Z",
+      "read": true,
+      "severity": "success"
+    }
+  ]
+}
