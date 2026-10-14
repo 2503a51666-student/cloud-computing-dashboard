@@ -262,6 +262,8 @@ function processRfidScan({
     if (rec.student_id !== student.student_id) return false;
     if (rec.date !== scanDate) return false;
     if (rec.subject_id !== currentClass.subject_id) return false;
+    if (rec.scheduled_start !== currentClass.start_time) return false;
+    if (rec.scheduled_end !== currentClass.end_time) return false;
     if (!rec.rfid_punch_time) return false;
 
     const existingMins = timeToMinutes(rec.rfid_punch_time);
@@ -274,11 +276,11 @@ function processRfidScan({
       success: false,
       state: 'DUPLICATE_SCAN',
       state_code: 10,
-      status_label: 'Duplicate Scan',
+      status_label: 'Duplicate Entry',
       student: { id: student.student_id, name: student.name, department: student.department },
       subject: { id: currentClass.subject_id, name: currentClass.subject_name },
       existing_punch_time: recentExistingScan.rfid_punch_time,
-      message: `Card already tapped at ${recentExistingScan.rfid_punch_time}. Duplicate scan within 5 minutes was ignored.`,
+      message: `Duplicate Entry: This card was already tapped at ${recentExistingScan.rfid_punch_time}. Duplicate taps are ignored.`,
       timestamp: timestamp || new Date().toISOString()
     };
   }

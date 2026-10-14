@@ -322,15 +322,25 @@ class SmartAttendApp {
   // -------------------------------------------------------------
 
   setupGlobalEventListeners() {
-    // Nav link clicks
+    // Delegated action handling survives dashboard re-renders and prevents the
+    // View Timetable button from losing its handler when the content is replaced.
     document.addEventListener('click', e => {
+      const timetableButton = e.target.closest('#btn-view-timetable-link, #btn-view-all-classes');
+      if (timetableButton) {
+        e.preventDefault();
+        e.stopPropagation();
+        this.navigateTo('timetable');
+        return;
+      }
+
+      // Nav link clicks
       const navLink = e.target.closest('.nav-link');
       if (navLink) {
         e.preventDefault();
         const view = navLink.getAttribute('data-view');
         if (view) this.navigateTo(view);
       }
-    });
+    }, true);
 
     // Role Switcher
     const roleSwitcher = document.getElementById('header-role-switcher');

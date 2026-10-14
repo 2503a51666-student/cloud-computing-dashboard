@@ -49,15 +49,15 @@ export function renderAttendanceCertificatePage(studentData) {
             SA
           </div>
           <div>
-            <h1 style="font-size: 22px; font-weight: 900; color: #0f172a; text-transform: uppercase; letter-spacing: 0.05em; margin: 0;">
-              INSTITUTE OF TECHNOLOGY & SCIENCE
+            <h1 style="font-size: 22px; font-weight: 900; color: #1d4ed8; text-transform: uppercase; letter-spacing: 0.05em; margin: 0;">
+              SR UNIVERSITY
             </h1>
-            <div style="font-size: 13px; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px;">
+            <div style="font-size: 13px; font-weight: 700; color: #111827; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px;">
               DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
             </div>
           </div>
         </div>
-        <div style="font-size: 11px; color: #64748b; margin-top: 6px;">
+        <div style="font-size: 11px; color: #1d4ed8; margin-top: 6px;">
           Accredited by National Board of Accreditation (NBA) • Campus RFID Automated Attendance Tracking System
         </div>
       </div>
